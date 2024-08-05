@@ -8,18 +8,20 @@
 <header>
     <div>
         <a href="index.html">Home</a>
-        <a href="#">Reviews</a>
+        <a href="reviews.html">Reviews</a>
         <a href="contact.html">Contact Us</a>
     </div>
 </header>
 <body>
     <form>
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="phone">Enter your phone number:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        <label for="reason">What is your current diagnosis? (Self Diagnosed or medically)</label><br>
+        <input type="text" id="reason" name="reason"><br>
       </form>
       <input type="submit" value="Submit Information">
 </body>
