@@ -1,3 +1,5 @@
+/* Navbar */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,4 +26,26 @@ ul {
   
   .active {
     background-color: #04AA6D;
+}
+
+/* Contact Form */
+
+.first-name {
+    margin: 0 auto;
+}
+
+.last-name {
+    margin: 0 auto;
+}
+
+.phone {
+    margin: 0 auto;
+}
+
+.diagnosis {
+    margin: 0 auto;
+}
+
+.input {
+    margin: 0 auto;
 }

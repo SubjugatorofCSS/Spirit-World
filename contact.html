@@ -17,16 +17,27 @@
 </header>
 <body>
     <form>
+        <div class="first-name">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" required><br>
+        </div>
+
+        <div class="last-name">
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" required><br>
+        </div>
+
+        <div class="phone">
         <label for="phone">Enter your phone number:</label><br>
         <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        </div>
+        
+        <div class="diagnosis">
         <label for="reason">What is your current diagnosis? (Self Diagnosed or medically)</label><br>
         <input type="text" id="reason" name="reason"><br>
+        </div>
       </form>
-      <input type="submit" value="Submit Information">
+      <input type="submit" class="input" value="Submit Information">
 </body>
 <a href="https://instagram.com/login"><i class="fa-brands fa-instagram"></i></a>
 <a href="https://facebook.com/login"><i class="fa-brands fa-facebook"></i></a>
